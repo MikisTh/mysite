@@ -1,3 +1,6 @@
+import React, { Component } from 'react';
+import logo from './logo.svg';
+import './Home.css';
 
 class Foo extends Component {
   constructor(props) {
