@@ -25,11 +25,20 @@ class index extends Pages {
               <Experience></Experience>
               <Skills></Skills>
               <Contacts></Contacts>
+          
                 </div>
             </div>
         </div>
       );
     }
   }
-  
+
+  <Route path="/">
+  <div className="container">
+    <h1 style={{textAlign: 'center'}}>Hello, React!</h1>
+
+    <Footer/>
+  </div>
+</Route>
+
   export default index;
