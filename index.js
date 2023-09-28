@@ -1,5 +1,9 @@
 import React, { Pages } from 'react';
 import './index.css';
+import ReactDOM from 'react-dom';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Nav, Navbar} from 'react-bootstrap';
 import home from './pages/home'
 import experience from './pages/experience'
 import formation from './pages/formation'
