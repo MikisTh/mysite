@@ -10,7 +10,15 @@ import formation from './pages/formation'
 import skills from './pages/skills'
 import about from './pages/about'
 import contacts from './pages/contacts'
+import error from "./pages/error';
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+  },
+]);
 
 class index extends Pages {
     render() {
